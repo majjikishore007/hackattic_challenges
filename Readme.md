@@ -4,6 +4,8 @@
 
 ### Challenges
 - [HelpMeUnpack](/Helpmeunpack/main.py)
+- [ReadingQR](/ReadingQR/main.py)
+
 
 
 

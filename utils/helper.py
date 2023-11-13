@@ -7,5 +7,7 @@ def get_the_problem(look_for, access_token):
     return data.json()
 
 
-def submit_the_solution(access_token):
-    pass
+def submit(look_for, access_token, payload):
+    URL = f"https://hackattic.com/challenges/{look_for}/solve?access_token={access_token}"
+    data = requests.post(URL, json=payload)
+    return data.json()
