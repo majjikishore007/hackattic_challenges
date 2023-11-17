@@ -3,8 +3,9 @@
 ## This repository contains my solutions to the challenges from [Hackattic](https://hackattic.com/)
 
 ### Challenges
-- [HelpMeUnpack](/Helpmeunpack/main.py)
-- [ReadingQR](/ReadingQR/main.py)
+- [Help Me Unpack](/Helpmeunpack/main.py)
+- [Reading QR](/ReadingQR/main.py)
+- [Password Hashing](/PasswordHashing)
 
 
 

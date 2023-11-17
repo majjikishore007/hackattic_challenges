@@ -57,11 +57,11 @@ if __name__ == "__main__":
     # print(make_hmac(decode_salt, passwd))
     # print(make_pbkdf2(pbkdf_obj,passwd,decode_salt))
     # print(make_scrypt(scrypt_obj, passwd, salt))
-    payload ={
-        "sha256":make_sha256(passwd),
-        "hmac":make_hmac(decode_salt,passwd),
-        "pbkdf2":make_pbkdf2(pbkdf_obj,passwd,decode_salt),
-        "scrypt":make_scrypt(scrypt_obj,passwd,salt)
+    payload = {
+        "sha256": make_sha256(passwd),
+        "hmac": make_hmac(decode_salt, passwd),
+        "pbkdf2": make_pbkdf2(pbkdf_obj, passwd, decode_salt),
+        "scrypt": make_scrypt(scrypt_obj, passwd, salt)
     }
 
-    print(utils.helper.submit(access_token=ACCESS_TOKEN,look_for=LOOK_FOR,payload=payload))
+    print(utils.helper.submit(access_token=ACCESS_TOKEN, look_for=LOOK_FOR, payload=payload))

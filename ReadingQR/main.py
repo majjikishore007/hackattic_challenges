@@ -13,7 +13,7 @@ def read_qr_code(url):
     # Fetch the image from the URL
     response = requests.get(url)
     image = Image.open(BytesIO(response.content))
-
+    
     # Decode the QR code
     decoded_data = decode(image)
     if decoded_data:
