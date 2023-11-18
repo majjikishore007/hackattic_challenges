@@ -6,6 +6,7 @@
 - [Help Me Unpack](/Helpmeunpack/main.py)
 - [Reading QR](/ReadingQR/main.py)
 - [Password Hashing](/PasswordHashing)
+- [Mini Miner](/MiniMiner/main.py)
 
 
 
