@@ -7,8 +7,7 @@
 - [Reading QR](/ReadingQR/main.py)
 - [Password Hashing](/PasswordHashing)
 - [Mini Miner](/MiniMiner/main.py)
-
-
+- [Backup Restore](/BackupRestore/main.py)
 
 
 
